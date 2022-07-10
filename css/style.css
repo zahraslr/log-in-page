@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../pic/5049039f-51ba-4847-be9a-688d24ba2936.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sign-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 100px;
+}
+
+form {
+  background: -webkit-gradient(linear, left top, left bottom, from(#6f00ff), color-stop(80%, #86056a));
+  background: linear-gradient(to bottom, #6f00ff, #86056a 80%);
+  width: 350px;
+  height: 100%;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+form #sign-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0;
+}
+
+form #sign-in #sign-in-img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+form #sign-in h3 {
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+form .password-msg, form .password-msg2, form .user-msg {
+  margin: 5px auto 25px;
+  font-size: 12px;
+  color: red;
+}
+
+form .sign-in-msg {
+  margin: 5px auto 25px;
+  font-size: 12px;
+  color: #fbff1b;
+}
+
+form .icon {
+  width: 30px;
+  height: 30px;
+  margin-top: auto;
+}
+
+.username {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: capitalize;
+  margin: 0px 25px;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+.username label {
+  margin-top: 10px;
+}
+
+.username #username {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.password {
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: capitalize;
+  margin: 0px 25px;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+.password label {
+  margin-top: 10px;
+}
+
+.password #password, .password #password2 {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.button {
+  color: #000;
+  border-radius: 30px;
+  text-transform: capitalize;
+  margin: 0px auto 80px;
+  border: 0px;
+}
+
+.button button {
+  padding: 3px 15px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
